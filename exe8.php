@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="" ng-init="name=['Deepa','Maha','Karthiga']">
+	<li style="list-style: none;color: red;font-size: 20px;font-style: italic;" ng-repeat="a in name">
+		{{a}}
+	</li>
+</div>
+</body>
+</html>
